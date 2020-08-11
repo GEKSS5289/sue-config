@@ -8,8 +8,8 @@
 - ⚙编译
 - ⚗测试
 # 🚬下载Nginx1.8.10
-   📞官网提供:[nginx1.8.10](http://nginx.org/en/download.html)
-   🤝作者提供:[nginx1.8.10](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/nginx-1.18.0.tar.gz)
+ ###  📞官方提供:[nginx1.8.10](http://nginx.org/en/download.html)
+ ###  🤝作者提供:[nginx1.8.10](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/nginx-1.18.0.tar.gz)
 # 🥩环境准备   
     💿安装gcc环境:  yum install gcc-c++
     💿安装PCRE库,用于解析正则表达式:yum install -y pcre pcre-devel
