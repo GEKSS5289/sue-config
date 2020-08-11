@@ -6,6 +6,7 @@
    - 🍻启动
 # 🚬下载ElasticSearch-7.2.4
   📞[ElasticSearch](https://www.baidu.com/link?url=BO9hMQut-GAg1T7zmYqErWcejyIBEyuaR4CNv7h0fWpheNnTHPPz0Q__u5aOFzeI&wd=&eqid=831f522800019878000000065f322b27)
+  🤝作者提供:[ElasticSearch](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/elasticsearch-7.4.2-linux-x86_64.tar.gz)  
 # 📦解压
         tar -zxvf elasticsearch-7.4.2-linux-x86_64.tar.gz -C /usr/local/
 # 🛠配置
