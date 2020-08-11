@@ -13,5 +13,6 @@
     ./startup.sh
 # 🌈成功
     http:localhost:8080
-   ![avatar](https://shushun.oss-cn-shenzhen.aliyuncs.com/QQ%E6%88%AA%E5%9B%BE20200811120057.png)
+   ![avatar](
+https://shushun.oss-cn-shenzhen.aliyuncs.com/QQ%E6%88%AA%E5%9B%BE20200811120057.png)
         
