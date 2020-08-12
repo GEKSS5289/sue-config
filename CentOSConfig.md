@@ -9,6 +9,7 @@
         IPADDR=192.168.182.152
         DNS1=192.168.2.1（填写自己的DNS解析）
         GATEWAY=192.168.2.1(填写自己的默认网关)
+    service network restart (刷新网络)
 # 🔓虚拟机开放端口
     查看放火墙状态:systemctl status firewalld
     关闭放火墙:systemctl stop firewalld
