@@ -5,3 +5,4 @@
   - 🐱Tomcat9.0.33配置->[TomcatConfig.md](https://github.com/GEKSS5289/sue-config/blob/master/TomcatConfig.md)
   - 🌳Nginx1.8.10配置->[NginxConfig.md](https://github.com/GEKSS5289/sue-config/blob/master/NginxConfig.md)
   - 🔍ElasticSearch-7.2.4配置->[ElasticSearchConfig.md](https://github.com/GEKSS5289/sue-config/blob/master/ElasticSearchConfig.md)
+  - 🦾Logstatsh-6.4.3配置->[LogstatshConfig.md](https://github.com/GEKSS5289/sue-config/blob/master/LogstatshConfig.md)
