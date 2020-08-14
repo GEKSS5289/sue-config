@@ -32,7 +32,7 @@
                            --http-proxy-temp-path=/var/temp/nginx/proxy \
                            --http-fastcgi-temp-path=/var/temp/nginx/fastcgi \
                            --http-uwsgi-temp-path=/var/temp/nginx/uwsgi \
-                           --http-scgi-temp-path=/var/temp/nginx/scgizoo_sample.cfg
+                           --http-scgi-temp-path=/var/temp/nginx/scgizoo_sample.cfg \
                            --with-http_ssl_module
     😊命令解释:
            –prefix	指定nginx安装目录
