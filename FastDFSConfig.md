@@ -1,26 +1,39 @@
-# ☕JDK 1.8
+# ☕FastDFS
 ## 安装简介
-> 安装环境:CentOS 7
+> 安装环境:CentOS 7(两台计算机节点 一台安装tracker 一台安装storage)
 - 🚬下载
-- 📦解压
-- 🛠配置
+- 🥩环境准备
+- 📦解压与安装(libfastcommon-1.0.42.tar.gz)
+- 📦解压与安装(fastdfs-6.04.tar.gz)
+- 🥪拷贝配置文件到/etc/fdfs
+- 🛠配置tracker服务
 - ⚗测试
-# 🚬下载JDK1.8
- ###  📞官方提供:[JDK1.8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
- ###  🤝作者提供:[JDK1.8](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/jdk-8u191-linux-x64.tar.gz)
-# 📦解压   
-    tar -zxvf /home/software/jdk-8u191-linux-x64.tar.gz -C /usr/local/java/
-# 🛠配置环境变量
-    ✏vim /etc/profile/ (在unset -f pathmunge下方空白处添加以下配置)
-        export JAVA_HOME=/usr/java/jdk1.8.0_191
-        export CLASSPATH=.:%JAVA_HOME%/lib/dt.jar:%JAVA_HOME%/lib/tools.jar  
-        export PATH=$PATH:$JAVA_HOME/bin
-    ☕刷新配置文件:
-        source /etc/profile
+# 🚬下载FastDFS相关包
+ ###  📞官方提供:[FastDFS](https://github.com/happyfish100)
+ ###  🤝作者提供:[FastDFS](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/FastDFS.zip)
+ > FastDFS压缩包中有四个压缩包后续依次解压
+# 🥩环境准备
+    yum install -y gcc gcc-c++
+    yum -y install libevent
+# 📦🔩解压与安装(libfastcommon-1.0.42.tar.gz)   
+    #安装libfastcommon-1.0.42函数库
+    tar -zxvf libfastcommon-1.0.42.tar.gz
+    #进入libfastcommon文件夹，编译并且安装
+    ./make.sh
+    ./make.sh install
+# 📦🔩解压与安装(fastdfs-6.04.tar.gz)   
+    #安装fastdfs主程序
+    tar -zxvf fastdfs-6.04.tar.gz
+    #进入fastdfs-6.04文件夹，编译并且安装
+    ./make.sh
+    ./make.sh install
+# 🥪拷贝配置文件到/etc/fdfs
+    cp /home/software/FastDFS/fastdfs-6.04/conf/* /etc/fdfs/
+# 🛠配置tracker服务
+    ✏修改tracker配置文件，此为tracker的工作目录，保存数据以及日志修改
+        base_path=/usr/local/fastdfs/tracker (需要自己先创建:mkdir /usr/local/fastdfs/tracker -p)
 # ⚗测试
-    java -version
-# 🌈成功
-    java version "1.8.0_191"
-    Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
+   /usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf
+   ps -ef|grep tracker (查看是否存在tracker进程 存在即成功)
+   停止:/usr/bin/stop.sh /etc/fdfs/tracker.conf
         
