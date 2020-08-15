@@ -32,4 +32,4 @@
 # ⚗测试
     http://ip:15672
 # 🌈成功
-   ![avatar](https://www.shushunstudio.com/success-image/QQ%E6%88%AA%E5%9B%BE20200814182108.png)
+   ![avatar](http://www.shushunstudio.com/success-image/QQ%E6%88%AA%E5%9B%BE20200814182108.png)
