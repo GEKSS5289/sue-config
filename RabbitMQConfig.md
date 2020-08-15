@@ -42,9 +42,7 @@
         把/var/lib/rabbitmq/.erlang.cookie文件的权限修改为777，
         原来是400；然后把.erlang.cookie文件copy到各个节点下；
         最后把所有cookie文件权限还原为400即可。
-        
-        
-        /etc/init.d/rabbitmq-server stop 
+       
         //进入目录修改权限；远程copy77、78节点
         scp /var/lib/rabbitmq/.erlang.cookie 192.168.11.77:/var/lib/rabbitmq/
         scp /var/lib/rabbitmq/.erlang.cookie 192.168.11.78:/var/lib/rabbitmq/
