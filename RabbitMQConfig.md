@@ -70,3 +70,8 @@
         rabbitmqctl cluster_status
   ### 🍹配置镜像队列(任意一个节点上执行)
         rabbitmqctl set_policy ha-all "^" '{"ha-mode":"all"}'
+  # 🗿成功
+   ## 进入控制台能看到如下:
+   ### ![avatar](http://www.shushunstudio.com/success-image/QQ%E6%88%AA%E5%9B%BE20200815124516.png)
+   ## 创建新队列测试会看到如下:
+   ### ![avatar](http://www.shushunstudio.com/success-image/QQ%E5%9B%BE%E7%89%8720200815124500.png)
