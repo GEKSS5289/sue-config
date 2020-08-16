@@ -5,9 +5,10 @@
 > ### 📦解压
 > ### 🛠配置
 > ### ⚗测试
+> ### 🕹️Zookeeper开机自启动️
 # 🚬下载Zookeeper-3.4.14
- ###  📞官方提供:[Zookeeper-3.4.14](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
- ###  🤝作者提供:[Zookeeper-3.4.14](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/jdk-8u191-linux-x64.tar.gz)
+ ###  📞官方提供:[Zookeeper-3.4.14](https://www.apache.org/dyn/closer.lua/zookeeper/zookeeper-3.4.14/zookeeper-3.4.14.tar.gz)
+ ###  🤝作者提供:[Zookeeper-3.4.14](https://www.shushunstudio.com/software/zookeeper-3.4.14.tar.gz)
 # 📦解压
     tar -zxvf zookeeper-3.4.14.tar.gz
     重命名: mv zookeeper-3.4.6 zookeeper
@@ -71,3 +72,22 @@
     B 是这个服务器的 ip 地址；
     C 表示的是这个服务器与集群中的 Leader 服务器交换信息的端口；
     D 表示的是万一集群中的 Leader 服务器挂了，需要一个端口来重新进行选举，选出一个新的 Leader
+# 🕹️Zookeeper开机自启动️
+    vim /etc/init.d zookeeper
+        #!/bin/bash
+        #chkconfig:2345 20 90
+        #description:zookeeper
+        #processname:zookeeper
+        export JAVA_HOME=/usr/java/jdk1.8.0_191
+        export PATH=$PATH:$JAVA_HOME/bin:$PATH
+
+        case $1 in
+                start) su root /usr/local/zookeeper-3.4.5/bin/zkServer.sh start;;
+                stop) su root /usr/local/zookeeper-3.4.5/bin/zkServer.sh stop;;
+                status) su root /usr/local/zookeeper-3.4.5/bin/zkServer.sh status;;
+                restart) su /usr/local/zookeeper-3.4.5/bin/zkServer.sh restart;;
+                *) echo "require start|stop|status|restart" ;;
+        esac
+        
+    开启启动配置: chkconfig zookeeper on
+  
