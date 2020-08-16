@@ -89,5 +89,6 @@
                 *) echo "require start|stop|status|restart" ;;
         esac
         
+    分配权限: chmod 777 zookeeper
     开启启动配置: chkconfig zookeeper on
   
