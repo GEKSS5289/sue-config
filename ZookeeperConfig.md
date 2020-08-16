@@ -42,7 +42,7 @@
         创建文件myid vim /usr/local/zookeeper/data/myid
         注意这里每一台服务器的myid文件内容不同，分别修改里面的值为0，1，2；
         与我们之前的zoo.cfg配置文件里：server.0，server.1，server.2 顺序相对应，然后保存退出；
- # ⚗<font color=#0099ff>测试</font> 
+ # ⚗测试  
     启动路径：/usr/local/zookeeper/bin（也可在任意目录，因为配置了环境变量）
     执行命令：zkServer.sh start (注意这里3台机器都要进行启动，启动之后可以查看状态)
     查看状态：zkServer.sh status (在三个节点上检验zk的mode, 会看到一个leader和俩个follower)
