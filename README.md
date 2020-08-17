@@ -9,4 +9,4 @@
 > #### 📄FastDFS配置->[`FastDFSConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/FastDFSConfig.md)
 > #### 🐰RabbitMQ配置->[`RabbitMQConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/RabbitMQConfig.md)
 > #### 🎛️Zookeeper配置->[`ZookeeperConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/ZookeeperConfig.md)
-> #### 🛰Kafka配置->[`KafkaConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/KafkaConfig.md) 
+> #### 🛰Kafka配置->[`KafkaConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/KafKaConfig.md) 
