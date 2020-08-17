@@ -8,7 +8,7 @@
 > ### 💿安装kafka管理工具
 # 🚬下载Kafka_2.12-2.1.0
  ###  📞官方提供:[kafka_2.12-2.1.0](http://kafka.apache.org/downloads)
- ###  🤝作者提供:[kafka_2.12-2.1.0](https://www.shushunstudio.com/software/zookeeper-3.4.14.tar.gz)
+ ###  🤝作者提供:[kafka_2.12-2.1.0](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/kafka_2.12-2.1.0.tgz)
 # 📦解压
     tar -zxvf kafka_2.12-2.1.0.tar
     重命名: mv kafka_2.12-2.1.0 kafka
