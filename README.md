@@ -12,4 +12,5 @@
 > #### 🛰Kafka配置->[`KafkaConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/KafKaConfig.md)
 > #### 🛥FileBeat配置->[`FileBeatConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/FileBeatConfig.md) 
 > #### 👘Kibana配置->[`KibanaConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/FileBeatConfig.md)
-> #### 📬ELK配置->[`ELKConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/ELKConfig.md.md)
+> #### 📬ELK配置->[`ELKConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/ELKConfig.md)
+> #### 📜Log4j12配置->[`Log4j12Config.md`](https://github.com/GEKSS5289/sue-config/blob/master/Log4j12Config.md)
