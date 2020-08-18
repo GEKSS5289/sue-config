@@ -14,3 +14,4 @@
 > #### 👘Kibana配置->[`KibanaConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/KibanaConfig.md)
 > #### 📬ELK配置->[`ELKConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/ELKConfig.md)
 > #### 📜Log4j12配置->[`Log4j12Config.md`](https://github.com/GEKSS5289/sue-config/blob/master/Log4j12Config.md)
+> #### 🥂SueProject配置[`SueProjectConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/SueProjectConfig.md)

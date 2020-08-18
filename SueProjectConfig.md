@@ -1,4 +1,4 @@
-# sue-project
+# 🥂sue-project
 > ## 🧊`依赖管理`
 > #### 🧊`SpringBoot主要依赖`
 > #### 🧊`持久层依赖`
