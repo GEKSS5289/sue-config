@@ -64,6 +64,7 @@
         
 ### 🧊持久层依赖
 
+       mysql数据驱动:
         <dependency>
                <groupId>mysql</groupId>
                <artifactId>mysql-connector-java</artifactId>
@@ -84,12 +85,14 @@
                         <artifactId>mapper-spring-boot-starter</artifactId>
                         <version>2.1.5</version>
                 </dependency>
+                
             逆向生成(mybatis代码执行):
                  <dependency>
                         <groupId>org.mybatis.generator</groupId>
                         <artifactId>mybatis-generator-core</artifactId>
                         <version>1.3.5</version>
                  </dependency>
+                 
             逆向生成(mybatis插件执行):
                  <build>
                          <plugins>
@@ -124,6 +127,7 @@
                              </plugin>
                          </plugins>
                 </build>
+                
         JPA持久层框架:  
                 <dependency>
                        <groupId>org.springframework.boot</groupId>
