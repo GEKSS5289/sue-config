@@ -63,10 +63,35 @@
         </dependency>
         
     监控依赖:
-        <dependency>
-                  <groupId>org.springframework.boot</groupId>
-                  <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+        方案A:
+            <dependency>
+                      <groupId>org.springframework.boot</groupId>
+                      <artifactId>spring-boot-starter-actuator</artifactId>
+            </dependency>
+        
+        方案B:
+            server:
+             <dependencyManagement>
+                    <dependencies>
+                        <dependency>
+                            <groupId>de.codecentric</groupId>
+                            <artifactId>spring-boot-admin-dependencies</artifactId>
+                            <version>${spring-boot-admin.version}</version>
+                            <type>pom</type>
+                            <scope>import</scope>
+                        </dependency>
+                    </dependencies>
+                </dependencyManagement>
+            <dependency>
+                      <groupId>de.codecentric</groupId>
+                      <artifactId>spring-boot-admin-starter-server</artifactId>
+            </dependency>
+          client:
+              <dependency>
+                      <groupId>de.codecentric</groupId>
+                      <artifactId>spring-boot-admin-starter-client</artifactId>
+              </dependency>
+        
         
 ### 🧊持久层依赖
 
