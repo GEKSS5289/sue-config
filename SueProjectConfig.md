@@ -249,11 +249,11 @@
                          <artifactId>spring-boot-starter-amqp</artifactId>
                  </dependency>
             rocketmq:
-                  <dependency>
+                 <dependency>
                          <groupId>org.apache.rocketmq</groupId>
                          <artifactId>rocketmq-client</artifactId>
                          <version>4.7.1</version>
-                  </dependency>
+                 </dependency>
 ### 🧊缓存中间依赖
 
         <dependency>
