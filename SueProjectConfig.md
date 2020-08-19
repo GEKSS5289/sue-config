@@ -51,16 +51,16 @@
                <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
     
-       <dependency>
+        <dependency>
                <groupId>org.springframework.boot</groupId>
                <artifactId>spring-boot-starter-aop</artifactId>
-       </dependency>
+        </dependency>
        
-       <dependency>
+        <dependency>
                <groupId>org.springframework.boot</groupId>
                <artifactId>spring-boot-starter-test</artifactId>
                <scope>test</scope>
-       </dependency>
+        </dependency>
         
 ### 🧊持久层依赖
 
