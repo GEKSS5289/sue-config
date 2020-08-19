@@ -70,7 +70,7 @@
                <version>8.0.18</version>
         </dependency>
         
-        Mybatis持久层依赖:
+        Mybatis持久层框架:
             <dependency>
                     <groupId>org.mybatis.spring.boot</groupId>
                     <artifactId>mybatis-spring-boot-starter</artifactId>
