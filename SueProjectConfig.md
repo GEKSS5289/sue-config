@@ -255,20 +255,22 @@
                          <version>4.7.1</version>
                  </dependency>
 ### 🧊缓存中间依赖
-
-        <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
+        
+        redis:
+            <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-data-redis</artifactId>
+            </dependency>
         
 ### 🧊搜索引擎依赖
-
-        <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-                <!--<version>2.1.5.RELEASE</version>-->
-                <version>2.2.2.RELEASE</version>
-        </dependency>
+        
+        Elasticsearch:
+            <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+                    <!--<version>2.1.5.RELEASE</version>-->
+                    <version>2.2.2.RELEASE</version>
+            </dependency>
           
 ### 🧊文件存储依赖
         
