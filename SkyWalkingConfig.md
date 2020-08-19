@@ -3,7 +3,6 @@
 > 安装环境:CentOS 7
 - 🚬下载
 - 📦解压
-- 🛠配置
 - ⚗测试
 # 🚬下载JDK1.8
  ###  📞官方提供:[SkyWalking6.6.0](https://archive.apache.org/dist/skywalking/6.6.0/)

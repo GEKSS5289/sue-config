@@ -3,7 +3,6 @@
 > 安装环境:CentOS 7 JDK1.8
 - 🚬下载
 - 📦解压
-- 🛠配置
 - ⚗测试
 # 🚬下载JDK1.8
  ###  📞官方提供:[Nacos-server-1.1.4](https://github.com/alibaba/nacos/releases)
