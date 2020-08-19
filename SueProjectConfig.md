@@ -62,6 +62,12 @@
                <scope>test</scope>
         </dependency>
         
+    监控依赖:
+        <dependency>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        
 ### 🧊持久层依赖
 
        mysql数据驱动:
