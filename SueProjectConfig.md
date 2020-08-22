@@ -1,6 +1,7 @@
 # 🥂sue-project
 > ## 🧊`依赖管理`
 > #### 🧊`SpringBoot主要依赖`
+> #### 🧊`分布式锁`
 > #### 🧊`持久层依赖`
 > #### 🧊`日志工具依赖`
 > #### 🧊`通用工具依赖`
@@ -91,8 +92,13 @@
                       <groupId>de.codecentric</groupId>
                       <artifactId>spring-boot-admin-starter-client</artifactId>
               </dependency>
-        
-        
+### 🧊`分布式锁`        
+        Redisson:
+           <dependency>
+                       <groupId>org.redisson</groupId>
+                       <artifactId>redisson-spring-boot-starter</artifactId>
+                       <version>3.12.0</version>
+           </dependency>  
 ### 🧊持久层依赖
 
        mysql数据驱动:
