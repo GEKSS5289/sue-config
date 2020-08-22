@@ -26,6 +26,12 @@
 # 🧊`依赖管理`
 ### 🧊SpringBoot主要依赖
 
+    环境jdk:
+        <properties>
+                <maven.compiler.source>1.8</maven.compiler.source>
+                <maven.compiler.target>1.8</maven.compiler.target>
+                <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        </properties>
     依赖版本管理:
     
         <dependencyManagement>
