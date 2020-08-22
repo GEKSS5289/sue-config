@@ -17,3 +17,4 @@
 > #### 🥂SueProject配置🔗[`SueProjectConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/SueProjectConfig.md)
 > #### 📻Nacos配置🔗[`NacosConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/NacosConfig.md)
 > #### 📡SkyWalking配置🔗[`SkyWalkingConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/SkyWalkingConfig.md)
+> #### 🔖MyCat配置🔗[`MyCatConfig.md`](https://github.com/GEKSS5289/sue-config/blob/master/MyCatConfig.md)
