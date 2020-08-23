@@ -1,6 +1,6 @@
 # 🐬Mysql8.0
-> 💿安装环境CentOS 7
-> 🐬安装Mysql8.0
+> ### 💿安装环境CentOS 7
+> ### 🐬安装Mysql8.0
 ## 🐬安装Mysql8.0
     检查:yum -y remove MySQL-*
         如果系统中存在:find / -name mysql
