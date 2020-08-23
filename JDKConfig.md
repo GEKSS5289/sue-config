@@ -9,6 +9,7 @@
  ###  📞官方提供:[JDK1.8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
  ###  🤝作者提供:[JDK1.8](https://shushun.oss-cn-shenzhen.aliyuncs.com/software/jdk-8u191-linux-x64.tar.gz)
 # 📦解压   
+    mkdir /usr/local/java
     tar -zxvf /home/software/jdk-8u191-linux-x64.tar.gz -C /usr/local/java/
 # 🛠配置环境变量
     ✏vim /etc/profile/ (在unset -f pathmunge下方空白处添加以下配置)
