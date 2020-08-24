@@ -25,7 +25,25 @@
 > #### 🧈`链路追踪依赖`
 # 🧊`依赖管理`
 ### 🧊SpringBoot主要依赖
-
+    打包插件:
+         <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                        <configuration>
+                            <mainClass>org.shushun.EurekaSeverApplication</mainClass>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>repackage</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
     环境jdk:
         <properties>
                 <maven.compiler.source>1.8</maven.compiler.source>
