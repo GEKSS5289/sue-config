@@ -368,4 +368,22 @@
                   <artifactId>aliyun-sdk-oss</artifactId>
                   <version>3.7.0</version>
             </dependency>
-        
+# 🧈微服务
+### 🧈注册中心依赖
+       <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+       </dependency>
+       
+### 🧈服务调用依赖
+      <dependency>
+                 <groupId>org.springframework.cloud</groupId>
+                 <artifactId>spring-cloud-starter-openfeign</artifactId>
+      </dependency>
+       
+### 🧈负载均衡依赖
+       <dependency>
+              <groupId>org.springframework.cloud</groupId>
+              <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+       </dependency>
+       
