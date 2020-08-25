@@ -23,6 +23,8 @@
 > #### 🧈`服务网关依赖`
 > #### 🧈`负载均衡依赖`
 > #### 🧈`链路追踪依赖`
+> #### 🧈`聚合服务信息依赖`
+> #### 🧈`Hystrix大盘监控依赖`
 # 🧊`依赖管理`
 ### 🧊SpringBoot主要依赖
     打包插件:
@@ -386,4 +388,18 @@
               <groupId>org.springframework.cloud</groupId>
               <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
        </dependency>
-       
+### 🧈熔断降级依赖
+        <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>     
+### 🧈`聚合服务信息依赖`
+        <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
+        </dependency>
+### 🧈`Hystrix大盘监控依赖`
+        <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+        </dependency>
