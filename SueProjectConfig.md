@@ -393,13 +393,69 @@
                <groupId>org.springframework.cloud</groupId>
                <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>     
-### 🧈`聚合服务信息依赖`
+### 🧈聚合服务信息依赖
         <dependency>
                <groupId>org.springframework.cloud</groupId>
                <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
         </dependency>
-### 🧈`Hystrix大盘监控依赖`
+### 🧈Hystrix大盘监控依赖
         <dependency>
                <groupId>org.springframework.cloud</groupId>
                <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
         </dependency>
+### 🧈总线依赖
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+    
+### 🧈服务网关依赖
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-gateway</artifactId>
+            </dependency>
+
+### 🧈配置中心依赖
+        提供配置端:
+                    <dependency>
+                        <groupId>org.springframework.cloud</groupId>
+                        <artifactId>spring-cloud-config-server</artifactId>
+                    </dependency>
+        拉取配置client端:
+                    <dependency>
+                        <groupId>org.springframework.cloud</groupId>
+                        <artifactId>spring-cloud-starter-config</artifactId>
+                    </dependency>
+
+### 🧈服务依赖
+          <dependency>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+          </dependency>
+        
+### 🧈链路追踪依赖
+                  <dependency>
+                      <groupId>io.zipkin.java</groupId>
+                      <artifactId>zipkin-server</artifactId>
+                      <version>2.8.4</version>
+                  </dependency>
+                  <dependency>
+                      <groupId>io.zipkin.java</groupId>
+                      <artifactId>zipkin-autoconfigure-ui</artifactId>
+                      <version>2.8.4</version>
+                  </dependency>
+                  
+                   <dependency>
+                              <groupId>org.springframework.cloud</groupId>
+                              <artifactId>spring-cloud-starter-sleuth</artifactId>
+                   </dependency>
+### 🧈消息驱动依赖
+
+       <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+       </dependency>
