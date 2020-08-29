@@ -371,6 +371,28 @@
                   <version>3.7.0</version>
             </dependency>
 # 🧈微服务
+### 🧈微服务主要依赖管理
+        <dependencyManagement>
+               <dependencies>
+                   <dependency>
+                       <groupId>org.springframework.cloud</groupId>
+                       <artifactId>spring-cloud-dependencies</artifactId>
+                       <version>Greenwich.SR1</version>
+                       <scope>import</scope>
+                       <type>pom</type>
+                   </dependency>
+               </dependencies>
+        </dependencyManagement> 
+        
+        alibaba:
+                        <dependency>
+                            <groupId>org.springframework.cloud</groupId>
+                            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                            <version>0.9.0.RELEASE</version>
+                            <type>pom</type>
+                            <scope>import</scope>
+                        </dependency>
+
 ### 🧈注册中心依赖
        <dependency>
                 <groupId>org.springframework.cloud</groupId>
