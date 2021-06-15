@@ -1,7 +1,7 @@
 # GitLab yum安装
 
-yum install https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/gitlab-ce-13.2.3-ce.0.el7.x86_64.rpm
-gitlab-ctl reconfigure
+[`yum install https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/gitlab-ce-13.2.3-ce.0.el7.x86_64.rpm`]
+[`gitlab-ctl reconfigure`]
 
 # docker install gitlab
 > docker run --detach \
