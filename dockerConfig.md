@@ -1,6 +1,6 @@
 # centos安装docker
 
-##创建docker-install.sh
+## 创建docker-install.sh
 vim docker-install.sh
 ##写入docker-install脚本
 ```
