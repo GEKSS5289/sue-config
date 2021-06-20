@@ -1,6 +1,9 @@
 # centos安装docker
-```
+
+##创建docker-install.sh
 vim docker-install.sh
+##写入docker-install脚本
+```
 yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum list docker-ce --showduplicates | sort -r
